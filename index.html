@@ -35,7 +35,7 @@
         <div class="content-container">
             <div class="self-wrapper">
                 <div class="self-content links-container flex-center text-center">
-                    <a href="#" class="link-item">
+                    <a href="./Blog/index.html" class="link-item">
                         <div class="link-icon"><i class="fa fa-home"></i></div>
                         <div>Blog</div>
                     </a>
@@ -47,15 +47,15 @@
                         <!-- <div class="link-icon"><i class="fa fa-qq"></i></div> -->
                         <!-- <div>QQ</div> -->
                     <!-- </a> -->
-                    <a href="#" class="link-item">
+                    <a href="https://t.me/jaropd" class="link-item">
                         <div class="link-icon"><i class="fa fa-telegram"></i></div>
                         <div>Telegram</div>
                     </a>
-                    <a href="#" class="link-item">
+                  <!--   <a href="#" class="link-item">
                         <div class="link-icon"><i class="fa fa-steam"></i></div>
                         <div>Steam</div>
-                    </a>
-                    <a href="#" class="link-item">
+                    </a> -->
+                    <a href="https://github.com/minewhn/" class="link-item">
                         <div class="link-icon"><i class="fa fa-github"></i></div>
                         <div>Github</div>
                     </a>
@@ -75,9 +75,8 @@
                 </div>
                 <div class="self-content">
                     <div class="info-container">
-                        This is a simple homepage theme by Zapic.
+                        This is a simple homepage theme by Zapic. <br> This is a building website of JaroWu
                     </div>
-
                 </div>
             </div>
             <div class="self-switcher">
@@ -85,18 +84,20 @@
                     <div class="btn-icon"><i class="fa fa-link"></i></div>
                     <div class="btn-text">Links</div>
                 </div>
+                
                 <div class="switcher-btn text-center" id="switcher-btn-2">
                     <div class="btn-icon"><i class="fa fa-book"></i></div>
-                    <div class="btn-text">Articles</div>
+                    <div class="btn-text">Blogs</div>
                 </div>
                 <div class="switcher-btn text-center" id="switcher-btn-3">
                     <div class="btn-icon"><i class="fa fa-info-circle"></i></div>
                     <div class="btn-text">About</div>
                 </div>
+                
                 <div class="btn-select-indicator"></div>
             </div>
         </div>
-        <div class="footer-container text-center">© 2020 By <a href="#">Present</a></div>
+        <div class="footer-container text-center">2022 By JaroWu<br>Powered By <a href="https://github.com/KawaiiZapic/Present">Present©</a></div>
     </div>
 </body>
 
@@ -110,22 +111,33 @@
     (function () {
         var feedType = "json";
         var feedPath = "feed.php";
+        // var bgArr = [{
+        //     "url": "static/img/background-1.jpg",
+        //     "thumb": "static/img/background-1-thumb.jpg"
+        // }, {
+        //     "url": "static/img/background-2.jpg",
+        //     "thumb": "static/img/background-2-thumb.jpg"
+        // }];
         var bgArr = [{
-            "url": "./static/img/bg1.jpg",
+            "url": "static/img/bg1.jpg"
         }, {
-            "url": "static/img/bg3.jpg",
+            "url": "static/img/bg2.png"
         }, {
-            "url": "static/img/bg6.jpg",
-        }
-
-        ];
-        var senArr = [
-            {
-                ch: ["Hello World."],
-                py: ["Hello World."],
-            }, {
-                ch: ["你好", ",", "世界", "."],
-                py: ["ni'hao", ",", "shi'jie", "."],
+            "url": "static/img/bg4.jpg"
+        }, {
+            "url": "static/img/bg3.jpg"
+        }, {
+            "url": "static/img/bg5.jpg"
+        }, {
+            "url": "static/img/bg6.jpg"
+        }];
+        var senArr = [{
+            // {
+            //     ch: ["Hello World."],
+            //     py: ["Hello World."],
+            // }, {   
+                ch: ["这里", "事", {pause: 120}, {del: 1}, "是", {pause: 100}, "加肉", {pause: 500}, {del: 1}, {pause: 60}, {del: 1}, "Jaro", "的", "网站"],
+                py: ["zhe'l", "shi", "", "", "shi", "", "jia'ro", "", "", "", "", "Jaro", "de", "wang'zhan"],
             }
         ];
 

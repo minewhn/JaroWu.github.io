@@ -137,6 +137,7 @@ body.locked, .content-container, .self-wrapper, .article-title {
     width: 320px;
     height: 400px;
     background: white;
+    opacity: 0.6;
     position: relative;
     border-radius: 3px;
     box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, .5);
